@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'my-app';
+  // 属性
+  title = 'hello，大家好~~~';
+
+  // 方法
+  getAge() {
+    return 18
+  }
+
 }
+
+
+
