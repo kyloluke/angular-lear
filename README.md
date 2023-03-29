@@ -1,3 +1,15 @@
+# 设置/添加 全局样式文件
+修改 `angular.json`文件中的`build > styles`中添加`node_modules/bootstrap/dist/css/bootstrap.min.css`
+
+# 解决 ngFor 指令报错
+需要在组件所在的 module 文件中 imports CommonModule `import { CommonModule } from '@angular/common'`
+
+
+
+
+
+
+
 # MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
